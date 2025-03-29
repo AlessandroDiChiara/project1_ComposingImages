@@ -19,7 +19,7 @@ function GetTransform(positionX, positionY, rotation, scale) {
 function ApplyTransform(trans1, trans2) {
     let result = new Array(9);
 
-    // Moltiplicazione matriciale 3x3
+  
     for (let col = 0; col < 3; col++) {  
         for (let row = 0; row < 3; row++) {  
             let index = col * 3 + row; 
