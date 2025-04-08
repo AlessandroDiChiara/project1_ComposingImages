@@ -5,7 +5,7 @@ function GetTransform(positionX, positionY, rotation, scale) {
     let radians = rotation * Math.PI / 180; // Converti i gradi in radianti
     let cos = Math.cos(radians);
     let sin = Math.sin(radians);
-
+//transformation matrix
     return [
         scale * cos,  scale * sin,  0,  // Prima colonna
        -scale * sin,  scale * cos,  0,  // Seconda colonna
